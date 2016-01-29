@@ -1,7 +1,7 @@
 {
   "name": "cc0-1.0",
   "description": "Plaintext of Creative Commons CC0 Version 1.0 from www.creativecommons.org",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "devDependencies": {
     "moduleify-string": "^1.0.0"
   },
