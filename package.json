@@ -7,7 +7,7 @@
     "CC0-1.0.json",
     "package.json"
   ],
-  "repository": "jslicense/cc0-1.0",
+  "repository": "jslicense/CC0-1.0",
   "scripts": {
     "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('CC0-1.0').toString()))\" > CC0-1.0.json"
   }
