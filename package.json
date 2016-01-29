@@ -2,16 +2,13 @@
   "name": "cc0-1.0",
   "description": "Plaintext of Creative Commons CC0 Version 1.0 from www.creativecommons.org",
   "version": "1.0.0",
-  "devDependencies": {
-    "moduleify-string": "^1.0.0"
-  },
   "files": [
     "README.md",
-    "index.js",
+    "CC0-1.0.json",
     "package.json"
   ],
   "repository": "jslicense/cc0-1.0",
   "scripts": {
-    "prepublish": "moduleify-string CC0-1.0 > index.js"
+    "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('CC0-1.0').toString()))\" > CC0-1.0.json"
   }
 }
