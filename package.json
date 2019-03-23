@@ -7,6 +7,7 @@
     "CC0-1.0.json",
     "package.json"
   ],
+  "main": "CC0-1.0.json",
   "keywords": [
     "jslicense",
     "license"
