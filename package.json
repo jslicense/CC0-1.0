@@ -1,7 +1,7 @@
 {
   "name": "cc0-1.0",
   "description": "Plaintext of Creative Commons CC0 Version 1.0 from www.creativecommons.org",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "files": [
     "README.md",
     "CC0-1.0.json",
